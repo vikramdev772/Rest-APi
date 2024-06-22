@@ -2,6 +2,7 @@ const s = require("./maths/sum");
 const fact=require("./maths/fact")
 const rev=require("./maths/rev");
 const fib=require("./maths/fib");
+
 const m = (req, res) => {
     const v = parseInt(req.query.v);
     res.status(200).json({

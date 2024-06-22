@@ -23,3 +23,4 @@ app.use("/maths",routers);
 app.listen(port,()=>{
     console.log(`\n\tServer is running on the ${port}🧑‍💻💻`);
 })
+
